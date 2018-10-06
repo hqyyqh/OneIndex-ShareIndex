@@ -9,8 +9,8 @@ from MagicGoogle import MagicGoogle
 
 mg = MagicGoogle()
 
-for i in range(12,30):
-	for url in mg.search_url(query='"index of / - OneIndex"',start=i*10+1,num=10):
+for i in range(1,5):
+	for url in mg.search_url(query='"index of / - OneIndex"',start=i*100+1,num=100):
 		pprint.pprint(url)
 	time.sleep(random.randint(5, 10))
 
