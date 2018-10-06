@@ -1,4 +1,5 @@
-# pip install MagicGoogle
+# 順調に働くため、まず：pip install MagicGoogle
+# ４０３エイラが起こえるから、getgoogle2.pyを使ってください。
 
 import os
 import sys
